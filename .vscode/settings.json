@@ -1,0 +1,20 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "[java]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+  },
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.test.config": {
+    "env": {
+      // "mode":"test",
+      // "GOOGLE_APPLICATION_CREDENTIALS": "/Users/mac019/anhpl/Daijin-Prj/config/service-account/daijin-logging-service-account.json",
+      // "TZ": "JST",
+      "JAVA_HOME": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home",
+      "PATH_CHROMEDRIVER": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home"
+    }
+  },
+  //"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -javaagent:\"/Users/mac019/.vscode/extensions/vscjava.vscode-lombok-1.0.1/server/lombok.jar\""
+}
